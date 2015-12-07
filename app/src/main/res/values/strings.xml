@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">EconomizeApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtMililitro">Mililitros</string>
+    <string name="txtPrice">Preco</string>
+    <string name="txtQuantity">Quantidade</string>
+    <string name="txtVs">VS</string>
+    <string name="txtCalculate">Calculate</string>
+    <string name="txtCentimetro">Centímetros</string>
+    <string name="txtCompare">Compare</string>
+    <string name="txtGramas">Gramas</string>
+    <string name="fillAllTheBlanks">Fill all the blanks</string>
+    <string name="viewProblem">View Problem</string>
+    <string name="txtClear">Clear</string>
+    <string name="title_activity_compare">CompareActivity</string>
+    <string name="txtPriceOf100gm">Preço de 100 gramas</string>
+    <string name="txtOptions">Opções</string>
+
+</resources>

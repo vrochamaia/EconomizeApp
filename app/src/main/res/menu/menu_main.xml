@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    >
+    <item
+        android:id="@+id/menuIconPork"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/menu_money_icon_pork"
+        />
+
+    <!--<item-->
+        <!--android:id="@+id/menuIconMoney"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/action_settings"-->
+        <!--app:showAsAction="ifRoom"-->
+        <!--android:icon="@drawable/menu_money_icon"-->
+        <!--/>-->
+
+
+
+
+
+</menu>

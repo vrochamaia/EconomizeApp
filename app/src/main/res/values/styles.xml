@@ -1,0 +1,34 @@
+<resources >
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!--<item name="android:actionBarStyle">@style/ActionBar</item>-->
+        <item name="actionBarStyle">@style/ActionBar</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+    </style>
+
+
+    <style name="ActionBar" parent="Widget.AppCompat.ActionBar">
+
+        <!--<item name="android:background">@color/actionBarColor</item>-->
+        <item name="background">@color/actionBarColor</item>
+       <!--<item name="android:titleTextStyle">@style/actionBarTextAppearance</item>-->
+       <item name="titleTextStyle">@style/actionBarTextAppearance</item>
+
+    </style>
+
+
+    <style name="actionBarTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/textActionBarColor</item>
+    </style>
+
+
+    <color name="actionBarColor">
+        #66bb6a
+    </color>
+
+    <color name="textActionBarColor">
+        #ffffff
+    </color>
+</resources>

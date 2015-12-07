@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <EditText
+            android:id="@+id/edtGm1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="@string/txtGramas"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edtPriceGramas1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/txtPrice"
+           />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtVs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtVs"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <EditText
+            android:id="@+id/edtGm2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="@string/txtGramas"
+            android:inputType="numberDecimal"
+            />
+
+        <EditText
+            android:id="@+id/edtPriceGramas2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/txtPrice"
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnCompareGramas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtCompare"/>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/btnClearGramas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtClear"/>
+
+
+
+</LinearLayout>
