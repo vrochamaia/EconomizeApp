@@ -1,2 +1,2 @@
 # EconomizeApp
-Aplicativo simples desenvolvido para a plataforma android. Tem como objetivo verificar, entre duas opções, a que vale mais a pena financeiramente de acordo com o volume e preço do produto.
+Simple application developed for the android platform. It aims to verify, between two options, the one that is worth the most financially according to the volume and price of the product.
